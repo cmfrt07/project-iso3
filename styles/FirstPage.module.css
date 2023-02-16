@@ -2,7 +2,6 @@
   overscroll-behavior: none;
   height: -webkit-fill-available;
   height: 100vh;
-  border: red solid 3px;
 }
 
 .header{
@@ -181,6 +180,12 @@
   }
 
 @media screen and (max-width: 990px){
+  .main{
+    overscroll-behavior: none;
+    height: -webkit-fill-available;
+    height: 100vh;
+  }
+
   .header{
     height: 8vh;
     padding: 0 20px;
