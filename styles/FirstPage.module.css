@@ -1,5 +1,6 @@
 .main{
   overscroll-behavior: none;
+  height: 100vh;
 }
 
 .header{
