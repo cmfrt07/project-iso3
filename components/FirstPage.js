@@ -104,7 +104,7 @@ function FirstPage(){
 
 
   return (
-    <main>
+    <main className={styles.main}>
       <div className={styles.header}>
         <div className={styles.intro}>
           <h1>name</h1>
