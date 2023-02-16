@@ -1,6 +1,8 @@
 .main{
   overscroll-behavior: none;
+  height: -webkit-fill-available;
   height: 100vh;
+  border: red solid 3px;
 }
 
 .header{
