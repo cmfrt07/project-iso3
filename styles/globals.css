@@ -1,11 +1,41 @@
+@font-face {
+  font-family: GraphikMedium;
+  src: url(../public/fonts/GraphikMedium.otf);
+}
+
+@font-face {
+  font-family: GraphikLight;
+  src: url(../public/fonts/GraphikLight.otf);
+}
+
+@font-face {
+  font-family: GraphikRegular;
+  src: url(../public/fonts/GraphikRegular.otf);
+}
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: GraphikMedium, sans-serif;
 }
+
+body input:focus{
+  outline: none;
+}
+
+body p, li{
+  font-family: GraphikLight, sans-serif;
+}
+
+body h1, h2, h3, h4{
+  font-family: GraphikRegular, sans-serif;
+}
+
 
 * {
   box-sizing: border-box;
 }
+
+
 

@@ -1,8 +1,7 @@
 import Home from '../components/Home';
-import FirstPage from '../components/FirstPage';
 
-function Index() {
-  return <FirstPage />;
+function HomePage() {
+  return <Home />;
 }
 
-export default Index;
+export default HomePage;
